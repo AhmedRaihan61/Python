@@ -1,0 +1,14 @@
+#FizzBuzz Game
+
+a = int(input("Enter Starting Value: "))
+b = int(input("Enter Ending Value: ")) + 1
+
+for number in range(a,b):
+    if number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    elif number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    else:
+        print(number)
